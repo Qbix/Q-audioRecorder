@@ -1,7 +1,7 @@
 "use strict";
 window.AudioContext = window.AudioContext || window.webkitAudioContext;
 
-var Recorder = function( config ){
+window.Recorder = function( config ){
 
   var that = this;
 
